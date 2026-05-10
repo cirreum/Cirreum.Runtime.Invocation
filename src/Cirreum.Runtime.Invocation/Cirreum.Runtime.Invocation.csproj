@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>Cirreum.Runtime</RootNamespace>
+		<Description>Runtime Extensions umbrella package for the Cirreum Invocation source family. Composes Cirreum.Runtime.Invocation.SignalR and Cirreum.Runtime.Invocation.WebSockets, and exposes app-facing AddInvocation() / MapInvocation() extensions that register all sources and map all endpoints.</Description>
+		<PackageTags>cirreum;runtime;invocation;signalr;websockets;providers;umbrella</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Cirreum.Runtime.Invocation.SignalR" Version="1.1.0" />
+		<PackageReference Include="Cirreum.Runtime.Invocation.WebSockets" Version="1.1.0" />
+	</ItemGroup>
+
+</Project>
