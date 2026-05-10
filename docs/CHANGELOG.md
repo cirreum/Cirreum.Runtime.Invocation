@@ -12,6 +12,8 @@ guides linked at the bottom of each entry.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-05-10
+
 ### Added
 
 Initial release of the umbrella Runtime Extensions package for the Cirreum Invocation source family. Composes `Cirreum.Runtime.Invocation.SignalR` and `Cirreum.Runtime.Invocation.WebSockets` behind a single `AddInvocation()` / `MapInvocation()` pair. Mirrors the `Cirreum.Runtime.Identity` umbrella's shape.
